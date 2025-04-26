@@ -1,40 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Tree, TreeNode } from 'react-organizational-chart';
-import familyData from '../data/familyData.json'; // adjust path if needed
+  import React from "react";
+  import { Tree, TreeNode } from "react-organizational-chart";
+  import familyData from "../data/familyData.json";
+  import { StyledNode, NodeContent, Image, Details } from "../styles/TreeStyles.js";
 
-// Styled components
-const StyledNode = styled.div`
-  padding: 10px;
-  border-radius: 8px;
-  background-color: #8dcaff;
-  display: inline-block;
-  border: 1px solid #3399ff;
-  font-weight: bold;
-  text-align: center;
-  min-width: 180px;
-`;
-
-const NodeContent = styled.div`
-  display: flex;
-  align-items: center;
-  text-align: left;
-`;
-
-const Image = styled.img`
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-`;
-
-const Details = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-const FamilyTree = () => {
-  // Helper to render each node recursively
   const renderTreeNode = (person) => (
     <TreeNode
       key={person.id}
@@ -43,8 +11,9 @@ const FamilyTree = () => {
           <NodeContent>
             <Image src={person.image} alt={person.name} />
             <Details>
-              <span><strong>{person.role}</strong></span>
-              <span>{person.name} {person.surname}</span>
+              <strong>{person.name} {person.surname}</strong>
+              <span>Role: {person.role}</span>
+              <span>Age: {person.age}</span>
             </Details>
           </NodeContent>
         </StyledNode>
@@ -55,32 +24,30 @@ const FamilyTree = () => {
     </TreeNode>
   );
 
-  // Grandpa is root, others are his children
-  const root = familyData.find((p) => p.role === 'Grandpa');
-  const children = familyData.filter((p) => p.role !== 'Grandpa');
+  const FamilyTree = () => {
+    return (
+      <div style={{ margin: "40px", overflowX: "auto" }}>
+        <Tree
+          lineWidth={"2px"}
+          lineColor={"#4a90e2"}
+          lineBorderRadius={"12px"}
+          label={
+            <StyledNode>
+              <NodeContent>
+                <Image src={familyData.image} alt={familyData.name} />
+                <Details>
+                  <strong>{familyData.name} {familyData.surname}</strong>
+                  <span>Role: {familyData.role}</span>
+                  <span>Age: {familyData.age}</span>
+                </Details>
+              </NodeContent>
+            </StyledNode>
+          }
+        >
+          {familyData.children.map((member) => renderTreeNode(member))}
+        </Tree>
+      </div>
+    );
+  };
 
-  return (
-    root && (
-      <Tree
-        lineWidth={'2px'}
-        lineColor={'#3399ff'}
-        lineBorderRadius={'10px'}
-        label={
-          <StyledNode>
-            <NodeContent>
-              <Image src={root.image} alt={root.name} />
-              <Details>
-                <span><strong>{root.role}</strong></span>
-                <span>{root.name} {root.surname}</span>
-              </Details>
-            </NodeContent>
-          </StyledNode>
-        }
-      >
-        {children.map((member) => renderTreeNode(member))}
-      </Tree>
-    )
-  );
-};
-
-export default FamilyTree;
+  export default FamilyTree;

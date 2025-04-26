@@ -1,48 +1,36 @@
-[
-  {
-    "id": 1,
-    "name": "John",
-    "surname": "Doe",
-    "role": "Grandpa",
-    "image": "https://randomuser.me/api/portraits/men/1.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Robert",
-    "surname": "Doe",
-    "role": "Dad",
-    "image": "https://randomuser.me/api/portraits/men/11.jpg",
-    "children": [
-      {
-        "id": 3,
-        "name": "Alex",
-        "surname": "Doe",
-        "role": "Son",
-        "image": "https://randomuser.me/api/portraits/men/21.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Lily",
-        "surname": "Doe",
-        "role": "Daughter",
-        "image": "https://randomuser.me/api/portraits/women/21.jpg"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Mark",
-    "surname": "Doe",
-    "role": "Uncle",
-    "image": "https://randomuser.me/api/portraits/men/15.jpg",
-    "children": [
-      {
-        "id": 6,
-        "name": "Ben",
-        "surname": "Doe",
-        "role": "Cousin",
-        "image": "https://randomuser.me/api/portraits/men/31.jpg"
-      }
-    ]
-  }
-]
+{
+  "id": 1,
+  "name": "John",
+  "surname": "Doe",
+  "age": 78,
+  "role": "Grandpa",
+  "image": "//user1.jpg",
+  "children": [
+    {
+      "id": 2,
+      "name": "Alice",
+      "surname": "Doe",
+      "age": 50,
+      "role": "Mother",
+      "image": "//user2.jpg",
+      "children": [
+        {
+          "id": 4,
+          "name": "Emma",
+          "surname": "Doe",
+          "age": 22,
+          "role": "Daughter",
+          "image": "//user4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "surname": "Doe",
+      "age": 48,
+      "role": "Uncle",
+      "image": "//user3.jpg"
+    }
+  ]
+}
