@@ -11,6 +11,7 @@
     "react-dom": "^19.1.0",
     "react-organizational-chart": "^2.2.1",
     "react-scripts": "5.0.1",
+    "react-zoom-pan-pinch": "^3.7.0",
     "styled-components": "^6.1.17",
     "web-vitals": "^2.1.4"
   },
