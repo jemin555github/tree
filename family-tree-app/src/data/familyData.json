@@ -17,14 +17,30 @@
           "name": "Grishbhai",
           "surname": "Ajudiya",
           "age": 22,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Shivam",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         },
         {
           "id": 9,
           "name": "Jagdishbhai",
           "surname": "Ajudiya",
           "age": 20,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Kishan",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         }
       ]
     },
@@ -40,14 +56,30 @@
           "name": "Niteshbhai",
           "surname": "Ajudiya",
           "age": 24,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Jemin",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         },
         {
           "id": 11,
           "name": "Shaileshbhai",
           "surname": "Ajudiya",
           "age": 21,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Zeel",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         },
         {
           "id": 11,
@@ -77,7 +109,15 @@
           "name": "Lalitbhai",
           "surname": "Ajudiya",
           "age": 17,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Jiyan",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         }
       ]
     },
@@ -93,14 +133,30 @@
           "name": "Hitendrabhai",
           "surname": "Ajudiya",
           "age": 18,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Jay",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         },
         {
           "id": 15,
           "name": "Mehubhai",
           "surname": "Ajudiya",
           "age": 16,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Jay",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         }
       ]
     },
@@ -116,7 +172,15 @@
           "name": "Kaushalbhai",
           "surname": "Ajudiya",
           "age": 15,
-          "image": "images/1.jpeg"
+          "image": "images/1.jpeg",
+          "children": [
+            {
+              "id": 10,
+              "name": "Shaurya",
+              "surname": "Ajudiya",
+              "age": 24,
+              "image": "images/1.jpeg"
+            }]
         }
       ]
     },
