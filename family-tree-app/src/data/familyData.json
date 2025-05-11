@@ -1,43 +1,43 @@
 {
   "id": 1,
-  "name": "Narshibhai",
-  "surname": "Ajudiya",
+  "name": "John",
+  "surname": "Doe",
   "age": 78,
   "image": "images/1.jpeg",
   "children": [
     {
       "id": 2,
-      "name": "Keshavjibhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 50,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 8,
-          "name": "Grishbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 22,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Shivam",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
         },
         {
           "id": 9,
-          "name": "Jagdishbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 20,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Kishan",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
@@ -46,45 +46,45 @@
     },
     {
       "id": 3,
-      "name": "Vallabhbhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 48,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 10,
-          "name": "Niteshbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 24,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Jemin",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
         },
         {
           "id": 11,
-          "name": "Shaileshbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 21,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Zeel",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
         },
         {
           "id": 11,
-          "name": "Jayeshbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 21,
           "image": "images/1.jpeg"
         }
@@ -92,29 +92,29 @@
     },
     {
       "id": 4,
-      "name": "Shambhubhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 45,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 12,
-          "name": "Bhaveshbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 19,
           "image": "images/1.jpeg"
         },
         {
           "id": 13,
-          "name": "Lalitbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 17,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Jiyan",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
@@ -123,37 +123,37 @@
     },
     {
       "id": 5,
-      "name": "Kishorbhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 43,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 14,
-          "name": "Hitendrabhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 18,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Jay",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
         },
         {
           "id": 15,
-          "name": "Mehubhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 16,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Jay",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
@@ -162,22 +162,22 @@
     },
     {
       "id": 6,
-      "name": "Karamshibhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 40,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 16,
-          "name": "Kaushalbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 15,
           "image": "images/1.jpeg",
           "children": [
             {
               "id": 10,
-              "name": "Shaurya",
-              "surname": "Ajudiya",
+              "name": "John",
+              "surname": "Doe",
               "age": 24,
               "image": "images/1.jpeg"
             }]
@@ -186,15 +186,15 @@
     },
     {
       "id": 7,
-      "name": "Virendrabhai",
-      "surname": "Ajudiya",
+      "name": "John",
+      "surname": "Doe",
       "age": 38,
       "image": "images/1.jpeg",
       "children": [
         {
           "id": 18,
-          "name": "Parthbhai",
-          "surname": "Ajudiya",
+          "name": "John",
+          "surname": "Doe",
           "age": 12,
           "image": "images/1.jpeg"
         }
